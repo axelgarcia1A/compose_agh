@@ -1,5 +1,9 @@
 # PASOS A SEGUIR
 
+## IMPORTANTE
+
+Para empezar, en la carpeta inicial, hay que pillar el archivo docker-compose.yaml, copiarlo y pegarlo en la carpeta donde vas a crear el resto de carpetas para el resto de contenedores que vas a crear a posterior.
+
 ## PARA FLASK
 
 - Para comenzar, hay que descargar los ficheros que tienen (flask), para, más tarde, descargar el de app.py y el de requirements.
