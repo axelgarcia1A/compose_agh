@@ -14,22 +14,24 @@ Es importante que el docker-compose.yaml esté en la carpeta previa a la de deve
 ```
 main/
 ├── developer
-│   ├── Dockerfile
-│   └── startup.sh
+│   ├── Dockerfile
+│   └── startup.sh
 ├── docker-compose.yaml
 └── flask
     ├── app.py
     ├── Dockerfile
     ├── gestio_participants.py
     ├── gestio_partides.py
+    ├── participants.json
+    ├── puntuacions.json
     ├── puntuacions.py
     ├── requirements.txt
     ├── start.sh
     ├── templates
-    │   ├── index.html
-    │   ├── participants.html
-    │   ├── parties.html
-    │   ├── puntuacions.html
-    │   └── ranking.html
+    │   ├── index.html
+    │   ├── participants.html
+    │   ├── partides.html
+    │   ├── puntuacions.html
+    │   └── ranking.html
     └── utils.py
 ```
