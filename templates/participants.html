@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Participants</title>
+</head>
+<body>
+    <h1>Llista de Participants</h1>
+    <form method="POST">
+        <input type="text" name="name" required> <!-- Cambié 'nom' por 'name' -->
+        <button type="submit">Afegir</button>
+    </form>
+    <ul>
+        {% for participant in participants %}
+        <li>{{ participant }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Tornar</a>
+</body>
+</html>

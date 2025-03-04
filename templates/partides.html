@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Partides</title>
+</head>
+<body>
+    <h1>Resultats de les partides</h1>
+    
+    <form method="POST">
+        <button type="submit">Simular Partides</button>
+    </form>
+
+    <h2>Resultats</h2>
+    <table>
+        <tr>
+            <th>Jugador 1</th>
+            <th>Jugador 2</th>
+            <th>Guanyador</th>
+        </tr>
+        {% for partida in resultats %}
+        <tr>
+            <td>{{ partida[0] }}</td>
+            <td>{{ partida[1] }}</td>
+            <td>{{ partida[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('index') }}">Tornar</a>
+</body>
+</html>

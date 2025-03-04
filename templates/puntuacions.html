@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puntuacions</title>
+</head>
+<body>
+    <h1>Classificació</h1>
+    <ul>
+        {% for jugador in ranking %}
+        <li>{{ jugador }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Tornar</a>
+</body>
+</html>
