@@ -12,5 +12,22 @@
 Es importante que el docker-compose.yaml esté en la carpeta previa a la de developer y flask, es decir, que quede asi:
 
 main/
-├── flask/  
-├── developer/                 
+├── developer
+│   ├── Dockerfile
+│   └── startup.sh
+├── docker-compose.yaml
+└── flask
+    ├── app.py
+    ├── Dockerfile
+    ├── gestio_participants.py
+    ├── gestio_partides.py
+    ├── puntuacions.py
+    ├── requirements.txt
+    ├── start.sh
+    ├── templates
+    │   ├── index.html
+    │   ├── participants.html
+    │   ├── parties.html
+    │   ├── puntuacions.html
+    │   └── ranking.html
+    └── utils.py
