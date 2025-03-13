@@ -35,3 +35,15 @@ main/
     │   └── ranking.html
     └── utils.py
 ```
+
+## SSH
+
+### SSH a Flask:
+
+- ssh -p 2222 root@localhost
+    - password: `password`
+
+### SSG a Developer:
+
+- ssh -p 2223 developer@localhost
+      - password: developer
